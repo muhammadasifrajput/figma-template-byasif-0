@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className='flex justify-center items-center gap-[50px] h-[600px] bg-[#fff9e5]'>
          <div>
-      <Image src="/assets/images/img8.png" alt='zero' height={700} width={700}/>
+      <Image src="/assets/Images/img8.png" alt='zero' height={700} width={700}/>
     </div>
     <div className='flex flex-col justify-center items-center'>
       <h1 className='text-2xl'>New Arrivals</h1>

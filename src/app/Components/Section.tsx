@@ -28,7 +28,7 @@ const Section = () => {
       
         {/* Image */}
         <Image 
-          src='/assets/images/img1.png' 
+          src='/assets/Images/img1.png' 
           alt='id' 
           width={500} 
           height={500} 
@@ -49,7 +49,7 @@ const Section = () => {
       
         {/* Image */}
         <Image 
-          src='/assets/images/img2.png' 
+          src='/assets/Images/img2.png' 
           alt='id' 
           width={500} 
           height={500} 

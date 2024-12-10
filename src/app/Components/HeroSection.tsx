@@ -16,7 +16,7 @@ const HeroSection = () => {
       {/* Image Section */}
       <div>
         <Image
-          src="/assets/images/heroImg.png"
+          src="/assets/Images/heroImg.png"
           alt="zero"
           height={700}
           width={700}

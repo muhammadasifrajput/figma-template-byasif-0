@@ -8,7 +8,7 @@ const page = () => {
     <div>
       <Header />
       <div>
-        <Image src="/assets/imgs/account.png" alt="" />
+        <Image src="/assets/Images/account.png" alt="" />
       </div>
       <div className="flex justify-center items-center gap-8">
         <div className="flex flex-col m-20">

@@ -9,14 +9,14 @@ const Cart = () => {
   const cartItems = [
     {
       id: 1,
-      image: "/assets/images/img1.png",
+      image: "/assets/Images/img1.png",
       price: 1000,
       quantity: 2,
       subtotal: 2000,
     },
     {
       id: 2,
-      image: "/assets/images/img2.png",
+      image: "/assets/Images/img2.png",
       price: 500,
       quantity: 1,
       subtotal: 500,
