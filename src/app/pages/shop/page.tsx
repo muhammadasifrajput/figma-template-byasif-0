@@ -15,7 +15,7 @@ const page = () => {
       {/* Banner Section */}
       <div className="w-full flex justify-center my-6">
         <Image
-          src="/assets/images/banner5.png"
+          src="/assets/Images/banner5.png"
           alt=""
           width={1500}
           height={200}
