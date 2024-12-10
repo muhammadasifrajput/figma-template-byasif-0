@@ -39,7 +39,10 @@ const blogs: Blog[] = [
 // BlogCard component with props type
 const BlogCard: React.FC<Blog> = ({ image, title, date, readTime }) => (
   <div className="bg-white shadow rounded-lg overflow-hidden">
-    <Image src={image} alt={title} className="w-full h-40 object-cover" />
+    <Image src={image} alt={title} 
+    width={300}
+    height={300}
+    className="w-full h-40 object-cover" />
     <div className="p-4 text-center">
       <h3 className="mt-4 text-lg font-medium">{title}</h3>
       <p className="text-black mb-4 text-xl mt-2 cursor-pointer">Read More</p>
