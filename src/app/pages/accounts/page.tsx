@@ -1,13 +1,14 @@
 import Footer from "@/app/Components/Footer";
 import Header from "@/app/Components/Header";
 import TextData from "@/app/Components/TextData";
+import Image from "next/image";
 
 const page = () => {
   return (
     <div>
       <Header />
       <div>
-        <img src="/assets/imgs/account.png" alt="" />
+        <Image src="/assets/imgs/account.png" alt="" />
       </div>
       <div className="flex justify-center items-center gap-8">
         <div className="flex flex-col m-20">

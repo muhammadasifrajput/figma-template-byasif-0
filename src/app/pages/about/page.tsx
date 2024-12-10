@@ -10,7 +10,7 @@ export default function About() {
     <div className="flex flex-col items-center px-6 py-12 lg:px-16">
       <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">About Us</h1>
       <p className="text-lg text-gray-600 mb-8 text-center max-w-3xl">
-        Welcome to <span>Ecomerce</span>! We're passionate about bringing you the best products from around the world. Our mission is to deliver high-quality, affordable, and unique items that fit your lifestyle and make shopping an enjoyable experience.
+        Welcome to <span>Ecomerce</span>! Were passionate about bringing you the best products from around the world. Our mission is to deliver high-quality, affordable, and unique items that fit your lifestyle and make shopping an enjoyable experience.
       </p>
 
       <section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-5xl">
