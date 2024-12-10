@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import PropsType  from 'next/dist/shared/lib/utils'; 
 import React from 'react';
 interface CardProps {
   imageUrl: string;

@@ -5,6 +5,7 @@ import productData from "@/utils/productData.js";
 import Footer from "@/app/Components/Footer";
 import Header from "@/app/Components/Header";
 import Link from "next/link";
+import Image from "next/image";
 
 const page = () => {
   const id = useParams();
@@ -22,7 +23,7 @@ const page = () => {
         <section className="text-gray-600 body-font overflow-hidden">
           <div className="container px-5 py-24 mx-auto">
             <div className="lg:w-4/5 mx-auto flex flex-wrap">
-              <img
+              <Image
                 alt="ecommerce"
                 className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
                 src={dataFilter?.imageUrl}
