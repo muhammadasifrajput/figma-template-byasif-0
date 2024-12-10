@@ -25,7 +25,7 @@ const page = () => {
       {/* Filter Section */}
       <div>
         <Image
-          src="/assets/images/filter.png"
+          src="/assets/Images/filter.png"
           alt="Filter"
           width={1500}
           height={200}

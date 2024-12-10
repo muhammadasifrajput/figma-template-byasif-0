@@ -15,21 +15,21 @@ interface Blog {
 const blogs: Blog[] = [
   {
     id: 1,
-    image: "/assets/images/blog1.png", // Replace with actual image paths
+    image: "/assets/Images/blog1.png", // Replace with actual image paths
     title: "Going all-in with millennial design",
     date: "12th Oct 2022",
     readTime: "5 min",
   },
   {
     id: 2,
-    image: "/assets/images/blog2.png", 
+    image: "/assets/Images/blog2.png", 
     title: "Going all-in with millennial design",
     date: "12th Oct 2022",
     readTime: "5 min",
   },
   {
     id: 3,
-    image: "/assets/images/blog3.png", 
+    image: "/assets/Images/blog3.png", 
     title: "Going all-in with millennial design",
     date: "12th Oct 2022",
     readTime: "5 min",
