@@ -2,6 +2,7 @@ import React from "react";
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import DateRangeIcon from '@mui/icons-material/DateRange';
 import Image from "next/image";
+import Link from "next/link";
 // Define types for the blog props
 interface Blog {
   id: number;
@@ -39,7 +40,7 @@ const blogs: Blog[] = [
 // BlogCard component with props type
 const BlogCard: React.FC<Blog> = ({ image, title, date, readTime }) => (
   <div className="bg-white shadow rounded-lg overflow-hidden">
-    <Image src={image} alt={title} 
+    <Image src={image} alt={title}
     width={300}
     height={300}
     className="w-full h-40 object-cover" />
@@ -71,12 +72,12 @@ const Blogs: React.FC = () => (
       ))}
     </div>
     <div className="text-center mt-12">
-      <a
-        href="/blogs"
-        className="text-black mb-4 text-xl mt-4 cursor-pointer underline"
-      >
+      <Link href="/blogs"
+        
+        className="text-black mb-4 text-xl mt-4 cursor-pointer underline">
+      
         View All Post
-      </a>
+      </Link>
     </div>
   </div>
 );

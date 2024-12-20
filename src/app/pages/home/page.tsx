@@ -7,6 +7,7 @@ import Banner from "@/app/Components/Banner";
 import Blogs from "@/app/Components/Blogs";
 import Banner2 from "@/app/Components/Banner2";
 import Footer from "@/app/Components/Footer";
+import Checkout from "../checkout/page";
 // import Banner from '@/app/components/Banner'
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Blogs />
       <Banner2 />
       <Footer />
+      
     </div>
   );
 };

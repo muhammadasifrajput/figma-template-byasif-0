@@ -24,7 +24,7 @@ import React from 'react'
 const Section = () => {
   return (
     <div className='flex justify-center items-center bg-pink-100'>
-       <div className="max-w-md m-2 p-4 ">
+       <div className="max-w-md m-2 p-16">
       
         {/* Image */}
         <Image 
@@ -32,11 +32,11 @@ const Section = () => {
           alt='id' 
           width={500} 
           height={500} 
-          className=""
+          className="mb-[130px]"
         />
     
       {/* Title */}
-      <h3 className="mt-[-50px] mb-4 text-3xl font-medium  text-gray-800 ">
+      <h3 className="mt-[-55px] mb-4 text-3xl font-medium  text-gray-800">
         Side Table
       </h3>
       <span className="pt-6 py-2 border-b-2 border-black text-xl font-medium  text-gray-800">
@@ -45,7 +45,7 @@ const Section = () => {
      
     </div>
       
-       <div className="max-w-md m-2 p-4    ">
+       <div className="max-w-md m-2 p-4">
       
         {/* Image */}
         <Image 
