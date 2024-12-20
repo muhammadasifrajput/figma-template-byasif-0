@@ -35,8 +35,8 @@ const Header = () => {
             {" "}
             <PersonIcon />
           </Link>
-          <SearchIcon />
-          <FavoriteIcon />
+         <Link href="/pages/checkout"><SearchIcon /></Link>
+          <Link href="/pages/productDetails"><FavoriteIcon /></Link>
 
           <Link href="/pages/cart">
             <ShoppingCartIcon />

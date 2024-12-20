@@ -26,7 +26,7 @@ const Page = () => {
               <Image
                 alt="ecommerce"
                 className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-                src={dataFilter?.imageUrl || "/placeholder-image.jpg"} // Add fallback image if undefined
+                src={dataFilter?.imageUrl || "/assets/Images/img8.png"} // Add fallback image if undefined
                 width={500}
                 height={500}
               />
@@ -78,12 +78,12 @@ const Page = () => {
                 </div>
                 <div className="flex justify-evenly gap-4">
                   <span className="title-font font-medium text-2xl text-gray-900">
-                    {dataFilter?.price || "Price not available"}
+                    {dataFilter?.price || "Rs:250000"}
                   </span>
                   <div className="flex gap-4 mr-20">
                     <Link href="/pages/cart">
                       <button className="flex ml-auto text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded">
-                        Add to Cart
+                        Add_to_cart
                       </button>
                     </Link>
                     <Link href="/pages/checkout">
